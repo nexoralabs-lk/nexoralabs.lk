@@ -10,6 +10,7 @@ A futuristic, minimalist website for Nexora Labs - a retail IT solutions company
 - **Responsive Design**: Fully responsive across all device sizes
 - **Interactive Elements**: Hover effects, cursor glow, and animated counters
 - **Modern Typography**: Sora, Poppins, and Exo 2 fonts for a tech-forward look
+- **Enhanced Visual Effects**: 3D animations, magnetic buttons, and particle systems
 
 ## 🎨 Design System
 
@@ -29,6 +30,7 @@ A futuristic, minimalist website for Nexora Labs - a retail IT solutions company
 - **React 18** - UI framework
 - **Vite** - Build tool and dev server
 - **TailwindCSS** - Utility-first CSS framework
+- **Framer Motion** - Advanced animations and interactions
 - **Custom CSS** - Additional animations and effects
 
 ## 📦 Installation
@@ -52,14 +54,14 @@ A futuristic, minimalist website for Nexora Labs - a retail IT solutions company
 src/
 ├── components/
 │   ├── CursorGlow.jsx      # Cursor trail effect
-│   ├── HeroSection.jsx     # Landing hero section
-│   ├── AboutSection.jsx    # About/Mission section
-│   ├── ServicesSection.jsx # Services showcase
+│   ├── HeroSection.jsx     # Landing hero section with line sweep animation
+│   ├── AboutSection.jsx    # About/Mission section with enhanced cards
+│   ├── ServicesSection.jsx # Services showcase with particle effects
 │   ├── WhyChooseSection.jsx # Why choose us + stats
 │   ├── ShowcaseSection.jsx # Case studies carousel
-│   ├── CTASection.jsx      # Call-to-action section
+│   ├── CTASection.jsx      # Call-to-action with magnetic button
 │   └── Footer.jsx          # Footer with links
-├── App.jsx                 # Main app component
+├── App.jsx                 # Main app component with animated background
 ├── main.jsx               # App entry point
 └── index.css              # Global styles and animations
 ```
@@ -67,29 +69,24 @@ src/
 ## ✨ Key Features
 
 ### Hero Section
-- Animated typewriter effect for main headline
-- Floating particles background
-- Glassmorphism CTA button with glow effects
+- **Line Sweep Animation**: Laser-like text reveal effect
+- **3D Floating Gradient Mesh**: Subtle animated background
+- **Magnetic Button**: Interactive pull effect on hover
 
 ### Services Section
-- Interactive service cards with hover animations
-- Staggered reveal animations on scroll
-- Feature lists with animated bullets
+- **Particle Effects**: Floating particles on hover
+- **3D Card Animations**: Scale, rotate, and glow effects
+- **Enhanced Visual Depth**: Multiple background layers
 
-### Why Choose Section
-- Animated counters (projects, uptime, clients, years)
-- Glass effect background with moving gradients
-- Testimonial section with quote styling
-
-### Showcase Section
-- Interactive carousel for case studies
-- Hover effects with zoom and overlay
-- Navigation controls and slide indicators
+### About Section
+- **Interactive Cards**: Hover effects with floating particles
+- **Animated Backgrounds**: Gradient orbs and geometric shapes
+- **Enhanced Glass Effects**: Better blur and transparency
 
 ### CTA Section
-- Contact form modal with glassmorphism
-- Multiple contact methods
-- Animated background elements
+- **Magnetic Glow Button**: Advanced interactive button with 3D effects
+- **Pulsing Animations**: Rhythmic glow effects
+- **Press Feedback**: Visual response to user interactions
 
 ## 🎯 Performance
 
@@ -97,6 +94,7 @@ src/
 - Lazy loading for better performance
 - Minimal JavaScript for smooth interactions
 - Responsive images and efficient CSS
+- Hardware-accelerated animations
 
 ## 📱 Responsive Design
 
